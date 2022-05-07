@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    /* background-color: rgba(255, 0, 0, 0.561); */
+    width: 100%;
+    height: 100vh;
+    
+}
+.login-btn{
+    width: 100px;
+    margin-left: 200px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    background: none;
+}
+.login-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+nav{
+    color: black;
+    background-color: rgba(255, 0, 0, 0.561);;
+}
+
+.header-content{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 250%;
+}
+.left img{
+    /* padding-top: 50px; */
+    margin-top: 10%;
+    width: 100%;   
+}
+.header-button{
+    padding: 10px;
+}
+
+.hover:hover{
+    background-color: white;
+    color: red;
+}
+.hover{
+    width: 200px;
+}
+.hover1{
+    width: 200px;
+}
+
+.right h2{
+    margin-top: 10%;
+    font-size: 45px;
+    font-weight: 900;
+    text-shadow: 2px 2px #bbb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+#donatores{
+    width: 100%;
+    height: 100vh;
+}
+.donaters-box img{
+    width: 100px;
+    margin: 10px;
+    height: 100px;
+    object-fit: contain;
+    animation: float 8s linear infinite;
+    padding: 1rem;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(1rem);
+    }
+}
+
+#donaters h1{
+    text-align: center !important;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-shadow: 2px 2px #bbb;
+}
+#donaters span{
+    color: red;
+}
+
+#about{
+    width: 100%;
+    height: 80vh;
+}
+.about-head{
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-head p:nth-child(1){
+    font-size: 44px;
+    padding: 10px;
+    font-weight: 900;
+}
+.about-head p span{
+    color: red;
+}
+.about-head p:nth-child(2){
+    font-size: 18px;
+    opacity: .5;
+    padding: 10px;
+}
+.about-head p:nth-child(3){
+    opacity: .5;
+    padding: 10px;
+    font-size: 18px;
+}
+.about-head button{
+    width: 150px;
+    font-size: 15px;
+    padding: 12px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 25vh;
+    /* background-color: #FF4C29 !important; */
+}
+.footer img{
+    object-fit: contain;
+}
+.footer p{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media (max-width:992px){
+    .login-btn{
+        display: none;
+    }
+    .header-content{
+        display: initial;
+    }
+    .left{
+        width: 70%;
+    }
+    .left img{
+        top: 30%;
+        left: 50%;
+        transform: translate(-30%,-5%);
+       position: relative;
+       margin-bottom: 0;
+       justify-content: center;
+    }
+    .right{
+        padding-left: 50px;
+    }
+    .right h2{
+        display: initial;
+    }
+    .header-button{
+        display: flex;
+        justify-content: center;
+    }
+    .hover{
+        margin-left: 10px;
+    }
+    #donaters{
+        padding-top: 30%;
+    }
+    .footer img{
+        margin-top: -20%;
+        object-fit: contain;
+    }
+}
+
+
+
+/* PHONE */
+@media (max-width:546px) {
+    .left{
+        width:70%;
+    }
+    .left img{
+        /* display: initial; */
+        margin-top: 10px;
+        width: 120%;
+    }
+    .right{
+       padding: 20px;
+    }
+    .right h2{
+        font-size: 35px;
+    }
+    .right p{
+        font-size: 14px;
+    }
+    .header-button{
+        padding: 0;
+    }
+    .header-button input[type="button"]{
+        font-size: 11px;
+    }
+    #donaters{
+        padding-top: 30px;
+    }
+    .footer img{
+        object-fit: contain;
+        margin-top: -40%;
+        margin-bottom: 0%;
+    }
+}
+
+/* DESKTOP */
+@media (max-width:1600x992px ){
+
+}
+
+/* LAPTOP */
+@media (max-width:1280x802px ) {
+    
+}
+
+/* TABLET */
+
+@media (maxx-width:768x1024px) {
+    
+}
+
+/* MOBILE */
+@media (max-width:320x480px) {
+    
+}
+
