@@ -9,6 +9,6 @@
 ![b4](https://user-images.githubusercontent.com/96366379/167254405-69c78038-db6d-4cdd-98f5-2bd0b7f07051.png)
 
 
-bot
+<!-- bot
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TManoj03/BloodBank)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TManoj03/BloodBank) -->
